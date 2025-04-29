@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5-AReeder", "Lab5-AReeder.csproj", "{C1359DEA-8378-4C1D-B8F9-67D59C9C18CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1359DEA-8378-4C1D-B8F9-67D59C9C18CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1359DEA-8378-4C1D-B8F9-67D59C9C18CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1359DEA-8378-4C1D-B8F9-67D59C9C18CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1359DEA-8378-4C1D-B8F9-67D59C9C18CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB65E3AE-51C5-4F49-841F-F9B53234AECB}
+	EndGlobalSection
+EndGlobal
