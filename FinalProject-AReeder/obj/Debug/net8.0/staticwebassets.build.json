@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "ZN83rqQC+qY83n+Su0R21C3v90NSLdHX/eVAL8AK9T8=",
+  "Source": "FinalProject-AReeder",
+  "BasePath": "_content/FinalProject-AReeder",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FinalProject-AReeder\\wwwroot",
+      "Source": "FinalProject-AReeder",
+      "ContentRoot": "C:\\Users\\Amajyah\\OneDrive\\Desktop\\C# Practice\\FinalProject-AReeder\\wwwroot\\",
+      "BasePath": "_content/FinalProject-AReeder",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

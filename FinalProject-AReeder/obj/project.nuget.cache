@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "01TTSiLe/yk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Amajyah\\OneDrive\\Desktop\\C# Practice\\FinalProject-AReeder\\FinalProject-AReeder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amajyah\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.14\\microsoft.windowsdesktop.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\Amajyah\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.14\\microsoft.netcore.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\Amajyah\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.14\\microsoft.aspnetcore.app.ref.8.0.14.nupkg.sha512",
+    "C:\\Users\\Amajyah\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.14\\microsoft.netcore.app.host.win-x64.8.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

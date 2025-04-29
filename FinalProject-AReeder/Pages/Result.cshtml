@@ -1,0 +1,79 @@
+﻿@page
+@model FinalProject_AReeder.Pages.ResultModel
+@{
+    ViewData["Title"] = "Result";
+    Layout = null;
+      <!-- Ensure it uses the same layout as the calculator -->
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="path/to/your/global/styles.css">  <!-- Include global styles -->
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5); /* Same gradient as Index */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .result-container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .btn-back {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Same button color as Index */
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+            .btn-back:hover {
+                background-color: #45a049; /* Hover effect matching Index */
+            }
+
+        .result p {
+            font-size: 18px;
+            color: #222;
+        }
+
+        .error {
+            color: red;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="result-container">
+        <h1>Final Grade</h1>
+
+        <p><strong>Final Numeric Grade:</strong> @Model.FinalGrade</p>
+        <p><strong>Letter Grade:</strong> @Model.LetterGrade</p>
+
+        <a href="/Index" class="btn-back">Back to Calculator</a>
+    </div>
+</body>
+</html>
